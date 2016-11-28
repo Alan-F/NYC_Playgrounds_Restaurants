@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <HISTORY saga-version="2.2.3">
+    <MODULE library="shapes_tools" id="18" name="Shapes Buffer">
+      <OPTION type="table_field" id="DIST_FIELD" name="Buffer Distance" index="-1">&lt;not set&gt;</OPTION>
+      <OPTION type="double" id="DIST_FIELD_DEFAULT" name="Default">0.010000</OPTION>
+      <OPTION type="boolean" id="DISSOLVE" name="Dissolve Buffers">FALSE</OPTION>
+      <OPTION type="integer" id="NZONES" name="Number of Buffer Zones">1</OPTION>
+      <OPTION type="double" id="DARC" name="Arc Vertex Distance [Degree]">5.000000</OPTION>
+      <INPUT type="shapes" id="SHAPES" name="Shapes">
+        <FILE>/var/folders/40/86x19zk56258rxh_ts12jq5r0000gn/T/processing9a1fe7aa306b4679a168b80e72d037a6/1480352709.282.shp</FILE>
+      </INPUT>
+      <OUTPUT type="shapes" id="BUFFER" name="Buffer">1480352709.282 [Buffer]</OUTPUT>
+    </MODULE>
+  </HISTORY>
+  <SOURCE>
+    <FILE>/Users/Alan/Documents/project/GISFinal/restaurant/QGIS/pgBuffer0.01.shp</FILE>
+    <DATABASE></DATABASE>
+    <PROJECTION>
+      <OGC_WKT>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]]</OGC_WKT>
+      <PROJ4>+proj=longlat +a=6378137.000000 +b=6356752.314245 +no_defs</PROJ4>
+      <EPSG>-1</EPSG>
+    </PROJECTION>
+  </SOURCE>
+  <DESCRIPTION></DESCRIPTION>
+</SAGA_METADATA>
