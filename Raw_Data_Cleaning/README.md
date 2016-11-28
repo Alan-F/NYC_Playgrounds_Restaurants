@@ -4,4 +4,4 @@
 <br/>
 *1. rr: NYC Reataurants List*
 <br/>
-*2. pg: NYC Playground List with "Accessiable == T" & "Status == 'Open to the public" (nege*) 
+*2. pg: NYC Playground List with "Accessiable == T" & "Status == 'Open to the public" (negelect lower & UPPER cases *) 
